@@ -1,5 +1,5 @@
 # ProteinBinder-MDPharma 
-This is the Binder version of our Protein-Protein Stabilizers from MD based pharamcophores (**[PPIS-MDPharma](https://github.com/ibrahim-mohd/PPIS-MDPharma)**
+This is the Binder version of our Protein-Protein Stabilizers from MD based pharamcophores **([PPIS-MDPharma](https://github.com/ibrahim-mohd/PPIS-MDPharma))**
 This repository provides codes and scripts to Obtain protein binders from MD generated pharmacophore as described in our paper "*Protein-Protein Interaction Stabilizers from MD Simulation-derived Pharmacophores, Mohd Ibrahim and Martin Zacharias*". In nut-shell, we generate pharmacophore models from MD simulations and search for corresponding ligands that satisfy the pharmacophores in a local data. The scripts here automates the whole procedure.
 
 **Note:**  In all the following scripts always use full path for input files. For instance, if the `npt.tpr` file is in the current directory use it as `$PWD/npt.tpr`
