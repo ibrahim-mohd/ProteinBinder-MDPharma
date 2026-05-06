@@ -1,6 +1,6 @@
 # ProteinBinder-MDPharma 
 This is the Binder version of our Protein-Protein Stabilizers from MD based pharamcophores **([PPIS-MDPharma](https://github.com/ibrahim-mohd/PPIS-MDPharma))**.
-This repository provides codes and scripts to Obtain protein binders from MD generated pharmacophore as described in our paper "*Protein-Protein Interaction Stabilizers from MD Simulation-derived Pharmacophores, Mohd Ibrahim and Martin Zacharias*". In nut-shell, we generate pharmacophore models from MD simulations and search for corresponding ligands that satisfy the pharmacophores in a local data. The scripts here automates the whole procedure.
+This repository provides codes and scripts to Obtain protein binders from MD generated pharmacophore as described in our paper **[Protein–Protein Interaction Stabilizers from MD Simulation-Derived Pharmacophores](https://doi.org/10.1021/acs.jcim.6c00290)**. In nut-shell, we generate pharmacophore models from MD simulations and search for corresponding ligands that satisfy the pharmacophores in a local data. The scripts here automates the whole procedure.
 
 **Note:**  In all the following scripts always use full path for input files. For instance, if the `npt.tpr` file is in the current directory use it as `$PWD/npt.tpr`
 
@@ -371,5 +371,5 @@ def generate_graphs(G, r, top_percentage=0, ntop_limit=0, max_dist_threshold=23)
 We first create all graphs (sub-pharmacophore) and then screen. For master pharmacophores with more than 20 nodes, as we consider lower subsets the possible comibination becomes very large and puts lot of strain on the RAM.
 ## References
 
-If you find this useful please cite:
-*Protein-Protein Interaction Stabilizers from MD Simulation-derived Pharmacophores*, Mohd Ibrahim and Martin Zacharias (In preparation)
+If you find this useful for your work please cite:
+*Protein–Protein Interaction Stabilizers from MD Simulation-Derived Pharmacophores*, Mohd Ibrahim and Martin Zacharias, **[J. Chem. Inf. Model. 2026](https://doi.org/10.1021/acs.jcim.6c00290)**
